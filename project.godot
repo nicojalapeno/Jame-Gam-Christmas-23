@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="Jame Gam Christmas '23"
-run/main_scene="res://label.tscn"
-config/features=PackedStringArray("4.3")
+run/main_scene="res://Scenes/hud.tscn"
+config/features=PackedStringArray("4.2")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=480
 
 [rendering]
 
