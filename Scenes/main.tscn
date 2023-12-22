@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cyc5vu6kmffil"]
+[gd_scene load_steps=4 format=3 uid="uid://cyc5vu6kmffil"]
 
 [ext_resource type="Script" path="res://Scenes/main.gd" id="1_tidsx"]
-[ext_resource type="Texture2D" uid="uid://lr5uqvmk2bgl" path="res://art/cropped-santa's workshop.png" id="2_bo8da"]
+[ext_resource type="Texture2D" uid="uid://cytipy026t177" path="res://art/cropped-santa's workshop(2).png" id="2_wxku5"]
+[ext_resource type="PackedScene" path="res://Scenes/hud.tscn" id="3_4r0i2"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_tidsx")
@@ -9,4 +10,6 @@ script = ExtResource("1_tidsx")
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("2_bo8da")
+texture = ExtResource("2_wxku5")
+
+[node name="HUD" parent="." instance=ExtResource("3_4r0i2")]

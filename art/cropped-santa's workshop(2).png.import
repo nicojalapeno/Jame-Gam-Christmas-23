@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lr5uqvmk2bgl"
-path="res://.godot/imported/cropped-santa's workshop.png-730bdfcb2d365b3b7f2aae3da07cb643.ctex"
+uid="uid://cytipy026t177"
+path="res://.godot/imported/cropped-santa's workshop(2).png-c3aa84420ad9bb954783daa5120a9291.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/cropped-santa's workshop.png"
-dest_files=["res://.godot/imported/cropped-santa's workshop.png-730bdfcb2d365b3b7f2aae3da07cb643.ctex"]
+source_file="res://art/cropped-santa's workshop(2).png"
+dest_files=["res://.godot/imported/cropped-santa's workshop(2).png-c3aa84420ad9bb954783daa5120a9291.ctex"]
 
 [params]
 

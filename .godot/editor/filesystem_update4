@@ -1,9 +1,4 @@
-res://Scenes/hud.tscn
 res://Scenes/player.tscn
-<<<<<<< HEAD
 res://Scenes/main.tscn
 res://Scenes/player.gd
 res://Scenes/main.gd
-=======
-res://Scenes/hud.gd
->>>>>>> 16a0e0618c55ce9b4adc0957f9bc0c283126cd3c

@@ -11,17 +11,17 @@ config_version=5
 [application]
 
 config/name="Jame Gam Christmas '23"
-run/main_scene="res://Scenes/hud.tscn"
-config/features=PackedStringArray("4.2")
+run/main_scene="res://Scenes/main.tscn"
+config/features=PackedStringArray("4.3")
 config/icon="res://icon.svg"
 
 [display]
 
 window/size/viewport_width=720
 window/size/viewport_height=480
-<<<<<<< HEAD
 window/stretch/mode="canvas_items"
 mouse_cursor/custom_image="res://art/hammer.png"
+<<<<<<<HEADwindow/stretch/mode="canvas_items"
 
 [input]
 
@@ -30,8 +30,6 @@ craft={
 "events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":1,"position":Vector2(146, 16),"global_position":Vector2(150, 57),"factor":1.0,"button_index":1,"canceled":false,"pressed":true,"double_click":false,"script":null)
 ]
 }
-=======
->>>>>>> 16a0e0618c55ce9b4adc0957f9bc0c283126cd3c
 
 [rendering]
 
