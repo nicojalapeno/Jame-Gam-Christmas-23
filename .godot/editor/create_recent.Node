@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CanvasLayer
 Node
 CollisionShape2D
@@ -6,4 +7,11 @@ AnimatedSprite2D
 TextureRect
 ColorRect
 Area2D
+=======
+>>>>>>> 16a0e0618c55ce9b4adc0957f9bc0c283126cd3c
 Label
+Timer
+Button
+CanvasLayer
+CanvasGroup
+Area2D
