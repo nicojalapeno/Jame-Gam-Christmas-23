@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyc5vu6kmffil"]
+
+[ext_resource type="Script" path="res://Scenes/main.gd" id="1_tidsx"]
+[ext_resource type="Texture2D" uid="uid://lr5uqvmk2bgl" path="res://art/cropped-santa's workshop.png" id="2_bo8da"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_tidsx")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_bo8da")

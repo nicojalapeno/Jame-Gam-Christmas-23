@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703263047
+::res://::1703269429
 icon.svg::CompressedTexture2D::2997639268605225756::1702911019::1702911026::1::::<><>::
 ::res://addons/::1703261028
 ::res://addons/godot-git-plugin/::1703261028
@@ -9,3 +9,11 @@ THIRDPARTY.md::TextFile::-1::1703261028::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1703261028
 ::res://addons/godot-git-plugin/macos/::1703261028
 ::res://addons/godot-git-plugin/win64/::1703263043
+::res://art/::1703269429
+cropped-santa's workshop.png::CompressedTexture2D::809029800872610323::1703269426::1703269429::1::::<><>::
+hammer.png::CompressedTexture2D::8653352437783010902::1703265448::1703265448::1::::<><>::
+::res://Scenes/::1703269196
+main.gd::GDScript::-1::1703269090::0::1::::<>Node<>::
+main.tscn::PackedScene::6463362480488628247::1703269196::0::1::::<><>::res://Scenes/main.gd<>uid://c7m2ufblcpasc::::res://art/santa's workshop.png
+player.gd::GDScript::-1::1703268524::0::1::::<>Area2D<>::
+player.tscn::PackedScene::1088145157748313408::1703265707::0::1::::<><>::uid://dvj0pkvytnh0q::::res://art/hammer.png

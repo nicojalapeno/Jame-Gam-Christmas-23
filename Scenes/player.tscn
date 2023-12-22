@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://prduec4blhtw"]
+[gd_scene load_steps=3 format=3 uid="uid://prduec4blhtw"]
+
+[ext_resource type="Texture2D" uid="uid://dvj0pkvytnh0q" path="res://art/hammer.png" id="1_fyvml"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_korln"]
+size = Vector2(30, 64)
 
 [node name="Player" type="Area2D"]
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_fyvml")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_korln")
