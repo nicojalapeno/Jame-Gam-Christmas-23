@@ -1,5 +1,7 @@
 extends CanvasLayer
 
+@onready var audio_player = $AudioStreamPlayer
+
 signal start_game
 
 func show_message(text):
@@ -24,6 +26,7 @@ func update_score(score):
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$Score.hide()
+	
 	pass # Replace with function body.
 
 
