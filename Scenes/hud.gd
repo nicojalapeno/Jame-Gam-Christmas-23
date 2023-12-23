@@ -1,5 +1,7 @@
 extends CanvasLayer
 
+@onready var audio_player = $AudioStreamPlayer
+
 signal start_game
 
 var score = 0
@@ -27,7 +29,7 @@ func update_score():
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$Score.hide()
-	pass # Replace with function body.
+	
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

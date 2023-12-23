@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cwfgdly8t8306"]
+[gd_scene load_steps=7 format=3 uid="uid://cwfgdly8t8306"]
 
 [ext_resource type="Script" path="res://Scenes/hud.gd" id="1_iy6vn"]
 [ext_resource type="Texture2D" uid="uid://qfcr6mk22ce8" path="res://art/santaworkshop.jpg" id="2_6eyau"]
 [ext_resource type="Texture2D" uid="uid://blyk8qvgs0bjh" path="res://art/istockphoto-1327291184-2048x2048.png" id="2_7stk0"]
 [ext_resource type="FontFile" uid="uid://btyivwmprvfei" path="res://fonts/Christmas Chalk.ttf" id="2_068ve"]
 [ext_resource type="FontFile" uid="uid://govknlxqedyq" path="res://fonts/Candcu__.ttf" id="3_ij4xq"]
+[ext_resource type="AudioStream" uid="uid://cbg41inypfojv" path="res://audio/music/'Christmas Spirit' by @SilvermanSound Christmas Music (No Copyright).mp3" id="6_qknnv"]
 
 [node name="HUD" type="CanvasLayer"]
 script = ExtResource("1_iy6vn")
@@ -64,6 +65,12 @@ metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
 [node name="MessageTimer" type="Timer" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_qknnv")
+volume_db = -20.0
+autoplay = true
+bus = &"Music"
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]

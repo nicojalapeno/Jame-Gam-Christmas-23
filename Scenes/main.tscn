@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://piwq1mhg81aa"]
+[gd_scene load_steps=17 format=3 uid="uid://piwq1mhg81aa"]
 
 [ext_resource type="Script" path="res://Scenes/main.gd" id="1_tidsx"]
 [ext_resource type="Texture2D" uid="uid://cytipy026t177" path="res://art/cropped-santa's workshop(2).png" id="2_wxku5"]
@@ -6,7 +6,9 @@
 [ext_resource type="Script" path="res://Scenes/bear.gd" id="4_x3gci"]
 [ext_resource type="Texture2D" uid="uid://53qjng6iw8g" path="res://art/body-parts-bear-vector_71599-139-removebg-preview.png" id="5_lpeg3"]
 [ext_resource type="Texture2D" uid="uid://b27yhy4mom0oc" path="res://art/body_part_bear_halfway.png" id="6_5fkcp"]
+[ext_resource type="Texture2D" uid="uid://ctrl3gftljylm" path="res://art/bearInpresent.png" id="7_71c0r"]
 [ext_resource type="Script" path="res://Scenes/BearAreas.gd" id="7_in268"]
+[ext_resource type="Texture2D" uid="uid://4gf1dgujad3s" path="res://art/present.png" id="8_m57ah"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ym6li"]
 atlas = ExtResource("5_lpeg3")
@@ -20,6 +22,14 @@ region = Rect2(221, 275, 93, 75)
 atlas = ExtResource("5_lpeg3")
 region = Rect2(229, 151, 89, 116)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_22yud"]
+atlas = ExtResource("7_71c0r")
+region = Rect2(0, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nuxr8"]
+atlas = ExtResource("8_m57ah")
+region = Rect2(0, 0, 150, 150)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_vyk5p"]
 animations = [{
 "frames": [{
@@ -31,6 +41,12 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dhip5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_22yud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nuxr8")
 }],
 "loop": true,
 "name": &"build",

@@ -1,7 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-<<<<<<< HEAD
-<<<<<<< HEAD
-::res://::1703348778
+::res://::1703366286
+default_bus_layout.tres::AudioBusLayout::-1::1703366286::0::1::::<><>::
 icon.svg::CompressedTexture2D::2997639268605225756::1703264055::1703264089::1::::<><>::
 ::res://addons/::1703264055
 ::res://addons/godot-git-plugin/::1703264055
@@ -10,14 +9,24 @@ plugin.cfg::TextFile::-1::1703264055::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1703264055::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1703264055
 ::res://addons/godot-git-plugin/macos/::1703264055
-::res://addons/godot-git-plugin/win64/::1703348767
-::res://art/::1703342410
+::res://addons/godot-git-plugin/win64/::1703364585
+::res://art/::1703367339
 82111637.jpg::CompressedTexture2D::6998680258447489930::1703265741::1703265745::1::::<><>::
-body-parts-bear-vector_71599-139-removebg-preview.png::CompressedTexture2D::63660474228721264::1703341745::1703341764::1::::<><>::
+bearInpresent.png::CompressedTexture2D::6142242031220079354::1703367339::1703367342::1::::<><>::
 body_part_bear_halfway.png::CompressedTexture2D::4349050564357784002::1703342267::1703342410::1::::<><>::
-cropped-santa's workshop(2).png::CompressedTexture2D::6497110615326294896::1703340923::1703340923::1::::<><>::
-hammer.png::CompressedTexture2D::8653352437783010902::1703340923::1703340923::1::::<><>::
-::res://fonts/::1703264711
+Christmas Chalk.ttf::FontFile::6436417276867371402::1703362515::1703362515::1::::<><>::
+hammer.png::CompressedTexture2D::5696295205094864102::1703362515::1703362515::1::::<><>::
+istockphoto-1327291184-2048x2048.png::CompressedTexture2D::3208710004047563813::1703362515::1703362515::1::::<><>::
+present.png::CompressedTexture2D::2048212915392274278::1703367327::1703367342::1::::<><>::
+santaworkshop.jpg::CompressedTexture2D::1133496826713739641::1703362515::1703362515::1::::<><>::
+::res://audio/::1703366286
+::res://audio/music/::1703366286
+'Christmas Spirit' by @SilvermanSound Christmas Music (No Copyright).mp3::AudioStreamMP3::4857224142360314711::1703366286::1703366286::1::::<><>::
+::res://audio/SFX/::1703366286
+Hammer Hit Free Sound Effect.mp3::AudioStreamMP3::9007255845253732766::1703366286::1703366286::1::::<><>::
+::res://fonts/::1703363756
+Candcu__.ttf::FontFile::451327966035133964::1703363756::1703363756::1::::<><>::
+Christmas Chalk.ttf::FontFile::3770078191283722044::1703362515::1703362515::1::::<><>::
 overview.PNG::CompressedTexture2D::1601926544296553995::1703264660::1703264711::1::::<><>::
 ::res://fonts/architect-s-daughter/::1703264710
 Architects Daughter SIL OFL Font License.txt::TextFile::-1::1703264660::0::1::::<><>::
@@ -108,143 +117,12 @@ LICENSE.txt::TextFile::-1::1703264665::0::1::::<><>::
 ::res://fonts/xolonium/xolonium-fonts-4.1/ttf/::1703264710
 Xolonium-Bold.ttf::FontFile::7298242088535812606::1703264665::1703264710::1::::<><>::
 Xolonium-Regular.ttf::FontFile::1711081170863175807::1703264665::1703264710::1::::<><>::
-::res://Scenes/::1703348716
-bear.gd::GDScript::-1::1703348697::0::1::::<>Area2D<>::
-BearAreas.gd::GDScript::-1::1703348714::0::1::::<>Area2D<>::
-hud.gd::GDScript::-1::1703268716::0::1::::<>CanvasLayer<>::
-hud.tscn::PackedScene::317415673096144655::1703348716::0::1::::<><>::res://Scenes/hud.gd<>uid://b3lklj4ajkjbc::::res://fonts/architect-s-daughter/ArchitectsDaughter.ttf<>uid://c6yhig8q355is::::res://art/82111637.jpg
-main.gd::GDScript::-1::1703346366::0::1::::<>Node<>::
-main.tscn::PackedScene::1070713407618454320::1703348716::0::1::::<><>::res://Scenes/main.gd<>res://art/cropped-santa's workshop(2).png<>uid://er013705ucsd::::res://Scenes/hud.tscn<>res://Scenes/bear.gd<>uid://53qjng6iw8g::::res://art/body-parts-bear-vector_71599-139-removebg-preview.png<>uid://b27yhy4mom0oc::::res://art/body_part_bear_halfway.png<>res://Scenes/BearAreas.gd
+::res://Scenes/::1703367302
+bear.gd::GDScript::-1::1703366833::0::1::::<>Area2D<>::
+BearAreas.gd::GDScript::-1::1703365213::0::1::::<>Area2D<>::
+hud.gd::GDScript::-1::1703366333::0::1::::<>CanvasLayer<>::
+hud.tscn::PackedScene::-1::1703364507::0::1::::<><>::
+main.gd::GDScript::-1::1703366286::0::1::::<>Node<>::
+main.tscn::PackedScene::1070713407618454320::1703367302::0::1::::<><>::res://Scenes/main.gd<>uid://cytipy026t177::::res://art/cropped-santa's workshop(2).png<>res://Scenes/hud.tscn<>res://Scenes/bear.gd<>uid://53qjng6iw8g::::res://art/body-parts-bear-vector_71599-139-removebg-preview.png<>uid://b27yhy4mom0oc::::res://art/body_part_bear_halfway.png<>uid://ctrl3gftljylm::::res://art/bearInpresent.png<>res://Scenes/BearAreas.gd<>uid://4gf1dgujad3s::::res://art/present.png
 player.gd::GDScript::-1::1703340923::0::1::::<>Area2D<>::
-player.tscn::PackedScene::1088145157748313408::1703348716::0::1::::<><>::res://art/hammer.png
-=======
-::res://::1703341759
-=======
-::res://::1703363465
->>>>>>> e34a702 (new score font and start button)
-icon.svg::CompressedTexture2D::2997639268605225756::1702911019::1702911026::1::::<><>::
-::res://addons/::1703261028
-::res://addons/godot-git-plugin/::1703261028
-git_plugin.gdextension::GDExtension::-1::1703261028::0::1::::<><>::
-plugin.cfg::TextFile::-1::1703261028::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1703261028::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1703261028
-::res://addons/godot-git-plugin/macos/::1703261028
-::res://addons/godot-git-plugin/win64/::1703263043
-::res://art/::1703363231
-82111637.jpg::CompressedTexture2D::6998680258447489930::1703269543::1703269543::1::::<><>::
-Christmas Chalk.ttf::FontFile::6436417276867371402::1703347673::1703347657::1::::<><>::
-hammer.png::CompressedTexture2D::5696295205094864102::1703341739::1703341744::1::::<><>::
-istockphoto-1327291184-2048x2048.png::CompressedTexture2D::3208710004047563813::1703347180::1703347180::1::::<><>::
-santaworkshop.jpg::CompressedTexture2D::1133496826713739641::1703346917::1703346917::1::::<><>::
-::res://fonts/::1703363465
-Candcu__.ttf::FontFile::451327966035133964::1703363448::1703363466::1::::<><>::
-Christmas Chalk.ttf::FontFile::3770078191283722044::1703347692::1703347692::1::::<><>::
-overview.PNG::CompressedTexture2D::1601926544296553995::1703269543::1703269543::1::::<><>::
-::res://fonts/architect-s-daughter/::1703269543
-Architects Daughter SIL OFL Font License.txt::TextFile::-1::1703269543::0::1::::<><>::
-ArchitectsDaughter32.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/architect-s-daughter/ArchitectsDaughter.ttf
-ArchitectsDaughter.ttf::FontFile::4375043792035193704::1703269543::1703269543::1::::<><>::
-::res://fonts/cmu-typewriter/::1703269543
-Typewriter.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/cmu-typewriter/Typewriter/cmuntt.ttf
-::res://fonts/cmu-typewriter/Typewriter/::1703269543
-cmunit.ttf::FontFile::4731530464055874090::1703269543::1703269543::1::::<><>::
-cmuntb.ttf::FontFile::3569173935755144495::1703269543::1703269543::1::::<><>::
-cmuntt.ttf::FontFile::893427308617720616::1703269543::1703269543::1::::<><>::
-cmuntx.ttf::FontFile::1670053425603157798::1703269543::1703269543::1::::<><>::
-OFL-FAQ.txt::TextFile::-1::1703269543::0::1::::<><>::
-OFL.txt::TextFile::-1::1703269543::0::1::::<><>::
-README.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/connection/::1703269543
-Connection.otf::FontFile::4389136794180674516::1703269543::1703269543::1::::<><>::
-ConnectionBold.otf::FontFile::30432049225964172::1703269543::1703269543::1::::<><>::
-SIL Open Font License.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/connection_ii/::1703269543
-ConnectionII.otf::FontFile::2485912675248256069::1703269543::1703269543::1::::<><>::
-ConnectionII.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/connection_ii/ConnectionII.otf
-SIL Open Font License.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/droid-sans/::1703269543
-Apache License.txt::TextFile::-1::1703269543::0::1::::<><>::
-DroidSans-Bold.ttf::FontFile::932151131641402689::1703269543::1703269543::1::::<><>::
-DroidSans.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/droid-sans/DroidSans.ttf
-DroidSans.ttf::FontFile::1440949838436717196::1703269543::1703269543::1::::<><>::
-::res://fonts/kirifont/::1703269543
-KiriFont.otf::FontFile::5243567607104488158::1703269543::1703269543::1::::<><>::
-Kirifont.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/kirifont/KiriFont.otf
-KiriFont.ttf::FontFile::7170330506188393741::1703269543::1703269543::1::::<><>::
-OFL.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/linux-libertine/::1703269543
-LinuxLibertine.tres::FontFile::-1::1703269543::0::1::::<><>::
-::res://fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/::1703269543
-::res://fonts/linux-libertine/LinLibertine_5.3.0_2012_07_02/LinLibertineOTF_5.3.0_2012_07_02/::1703269543
-Bugs.txt::TextFile::-1::1703269543::0::1::::<><>::
-ChangeLog.txt::TextFile::-1::1703269543::0::1::::<><>::
-GPL.txt::TextFile::-1::1703269543::0::1::::<><>::
-INSTALL.txt::TextFile::-1::1703269543::0::1::::<><>::
-LICENCE.txt::TextFile::-1::1703269543::0::1::::<><>::
-LinLibertine_DR.otf::FontFile::658646470703328527::1703269543::1703269543::1::::<><>::
-LinLibertine_I.otf::FontFile::3936271577124263326::1703269543::1703269543::1::::<><>::
-LinLibertine_M.otf::FontFile::3384577255545159783::1703269543::1703269543::1::::<><>::
-LinLibertine_R.otf::FontFile::7177966654291711426::1703269543::1703269543::1::::<><>::
-LinLibertine_RB.otf::FontFile::520585841544075103::1703269543::1703269543::1::::<><>::
-LinLibertine_RBI.otf::FontFile::4688028922594092374::1703269543::1703269543::1::::<><>::
-LinLibertine_RI.otf::FontFile::7739322784077038950::1703269543::1703269543::1::::<><>::
-LinLibertine_RZ.otf::FontFile::3408105583732501714::1703269543::1703269543::1::::<><>::
-LinLibertine_RZI.otf::FontFile::5855824883172757679::1703269543::1703269543::1::::<><>::
-OFL-1.1.txt::TextFile::-1::1703269543::0::1::::<><>::
-Readme-TEX.txt::TextFile::-1::1703269543::0::1::::<><>::
-ToDo.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/montreal/::1703269543
-Montreal-Bold.ttf::FontFile::6315641173377754072::1703269543::1703269543::1::::<><>::
-Montreal-Regular.ttf::FontFile::3906034043665538086::1703269543::1703269543::1::::<><>::
-Montreal.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/montreal/Montreal-Regular.ttf
-OFL.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/poco/::1703269543
-CC BY 4.0.txt::TextFile::-1::1703269543::0::1::::<><>::
-Poco.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/poco/Poco.ttf
-Poco.ttf::FontFile::5248933739460292183::1703269543::1703269543::1::::<><>::
-::res://fonts/source-code-pro/::1703269543
-SourceCodePro.tres::FontFile::-1::1703269543::0::1::::<><>::res://fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Regular.ttf
-::res://fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/::1703269543
-LICENSE.txt::TextFile::-1::1703269543::0::1::::<><>::
-::res://fonts/source-code-pro/source-code-pro-2.010R-ro-1.030R-it/TTF/::1703269544
-SourceCodePro-Black.ttf::FontFile::593634600908951137::1703269543::1703269543::1::::<><>::
-SourceCodePro-BlackIt.ttf::FontFile::8869123312003799828::1703269543::1703269543::1::::<><>::
-SourceCodePro-Bold.ttf::FontFile::6983395643055584835::1703269543::1703269543::1::::<><>::
-SourceCodePro-BoldIt.ttf::FontFile::325287090886589602::1703269543::1703269543::1::::<><>::
-SourceCodePro-ExtraLight.ttf::FontFile::8309665824324467412::1703269543::1703269543::1::::<><>::
-SourceCodePro-ExtraLightIt.ttf::FontFile::3793804019668396079::1703269543::1703269543::1::::<><>::
-SourceCodePro-It.ttf::FontFile::6328712084952182491::1703269543::1703269543::1::::<><>::
-SourceCodePro-Light.ttf::FontFile::4886401872117544930::1703269543::1703269543::1::::<><>::
-SourceCodePro-LightIt.ttf::FontFile::4489086090187831831::1703269543::1703269543::1::::<><>::
-SourceCodePro-Medium.ttf::FontFile::9153466089924704357::1703269543::1703269543::1::::<><>::
-SourceCodePro-MediumIt.ttf::FontFile::8969240242313020182::1703269543::1703269544::1::::<><>::
-SourceCodePro-Regular.ttf::FontFile::1250175848511654235::1703269544::1703269544::1::::<><>::
-SourceCodePro-Semibold.ttf::FontFile::7652942170453666954::1703269544::1703269544::1::::<><>::
-SourceCodePro-SemiboldIt.ttf::FontFile::8107896237755522053::1703269544::1703269544::1::::<><>::
-::res://fonts/xolonium/::1703269544
-Xolonium.tres::FontFile::-1::1703269544::0::1::::<><>::res://fonts/xolonium/xolonium-fonts-4.1/ttf/Xolonium-Regular.ttf
-::res://fonts/xolonium/xolonium-fonts-4.1/::1703269544
-FONTLOG.txt::TextFile::-1::1703269544::0::1::::<><>::
-LICENSE.txt::TextFile::-1::1703269544::0::1::::<><>::
-::res://fonts/xolonium/xolonium-fonts-4.1/ttf/::1703269544
-Xolonium-Bold.ttf::FontFile::7298242088535812606::1703269544::1703269544::1::::<><>::
-Xolonium-Regular.ttf::FontFile::1711081170863175807::1703269544::1703269544::1::::<><>::
-<<<<<<< HEAD
-::res://Scenes/::1703347441
-hud.gd::GDScript::-1::1703347000::0::1::::<>CanvasLayer<>::
-hud.tscn::PackedScene::6327688091889774137::1703347441::0::1::::<><>::res://Scenes/hud.gd<>uid://qfcr6mk22ce8::::res://art/santaworkshop.jpg<>uid://blyk8qvgs0bjh::::res://art/istockphoto-1327291184-2048x2048.png
-main.gd::GDScript::-1::1703269090::0::1::::<>Node<>::
-main.tscn::PackedScene::6463362480488628247::1703341765::0::1::::<><>::res://Scenes/main.gd<>uid://cytipy026t177::::res://art/cropped-santa's workshop(2).png<>res://Scenes/hud.tscn
-player.gd::GDScript::-1::1703268524::0::1::::<>Area2D<>::
-player.tscn::PackedScene::1088145157748313408::1703265707::0::1::::<><>::uid://dvj0pkvytnh0q::::res://art/hammer.png
->>>>>>> d5457731db0708cfcad599c2796aea1987073101
-=======
-::res://Scenes/::1703363388
-hud.gd::GDScript::-1::1703362938::0::1::::<>CanvasLayer<>::
-hud.tscn::PackedScene::6327688091889774137::1703363388::0::1::::<><>::res://Scenes/hud.gd<>uid://qfcr6mk22ce8::::res://art/santaworkshop.jpg<>uid://blyk8qvgs0bjh::::res://art/istockphoto-1327291184-2048x2048.png<>uid://btyivwmprvfei::::res://fonts/Christmas Chalk.ttf
-main.gd::GDScript::-1::1703363231::0::1::::<>Node<>::
-main.tscn::PackedScene::6463362480488628247::1703363251::0::1::::<><>::res://Scenes/main.gd<>uid://cytipy026t177::::res://art/cropped-santa's workshop(2).png<>uid://cwfgdly8t8306::::res://Scenes/hud.tscn
-player.gd::GDScript::-1::1703363231::0::1::::<>Area2D<>::
-player.tscn::PackedScene::1088145157748313408::1703363231::0::1::::<><>::uid://dvj0pkvytnh0q::::res://art/hammer.png
->>>>>>> e34a702 (new score font and start button)
+player.tscn::PackedScene::1088145157748313408::1703350535::0::1::::<><>::uid://dvj0pkvytnh0q::::res://art/hammer.png
