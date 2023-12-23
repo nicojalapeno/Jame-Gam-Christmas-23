@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+TextureRect
+>>>>>>> e34a702 (new score font and start button)
 Label
 Control
 CanvasLayer
@@ -11,9 +15,12 @@ Node
 CollisionPolygon2D
 Area2D
 AnimatedSprite2D
+<<<<<<< HEAD
 CanvasLayer
 Sprite2D
 TextureRect
+=======
+>>>>>>> e34a702 (new score font and start button)
 ColorRect
 <<<<<<< HEAD
 Label

@@ -1,6 +1,11 @@
 res://Scenes/player.tscn
 res://Scenes/hud.tscn
+<<<<<<< HEAD
 res://Scenes/main.tscn
 res://Scenes/bear.gd
 res://Scenes/Node2D.gd
 res://Scenes/BearAreas.gd
+=======
+res://Scenes/hud.gd
+res://Scenes/bear.gd
+>>>>>>> e34a702 (new score font and start button)
