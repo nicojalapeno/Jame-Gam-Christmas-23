@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://cwfgdly8t8306"]
+
+[ext_resource type="Script" path="res://Scenes/hud.gd" id="1_iy6vn"]
+[ext_resource type="Texture2D" uid="uid://qfcr6mk22ce8" path="res://art/santaworkshop.jpg" id="2_6eyau"]
+[ext_resource type="Texture2D" uid="uid://blyk8qvgs0bjh" path="res://art/istockphoto-1327291184-2048x2048.png" id="2_7stk0"]
+[ext_resource type="FontFile" uid="uid://btyivwmprvfei" path="res://fonts/Christmas Chalk.ttf" id="2_068ve"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_iy6vn")
+
+[node name="Score" type="Label" parent="."]
+z_index = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -98.0
+offset_top = 10.0
+offset_right = -23.0
+offset_bottom = 147.0
+grow_horizontal = 0
+pivot_offset = Vector2(0, -0.2)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "0
+"
+
+[node name="StartButton" type="Button" parent="."]
+z_index = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -232.0
+offset_top = 56.0
+offset_right = 56.0
+offset_bottom = 245.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_068ve")
+theme_override_font_sizes/font_size = 26
+text = "Start"
+icon = ExtResource("2_7stk0")
+flat = true
+icon_alignment = 1
+expand_icon = true
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="MessageTimer" type="Timer" parent="."]
+
+[node name="Start_background" type="Sprite2D" parent="."]
+position = Vector2(360, 240)
+scale = Vector2(1.17647, 0.788177)
+texture = ExtResource("2_6eyau")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]

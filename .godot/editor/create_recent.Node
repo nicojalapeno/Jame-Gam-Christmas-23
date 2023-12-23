@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+Label
+Control
+CanvasLayer
+Node
+>>>>>>> d5457731db0708cfcad599c2796aea1987073101
 CollisionShape2D
 Node2D
 Node
@@ -8,7 +15,15 @@ CanvasLayer
 Sprite2D
 TextureRect
 ColorRect
+<<<<<<< HEAD
 Label
 Timer
 Button
 CanvasLayer
+=======
+Area2D
+Timer
+Button
+CanvasLayer
+CanvasGroup
+>>>>>>> d5457731db0708cfcad599c2796aea1987073101
