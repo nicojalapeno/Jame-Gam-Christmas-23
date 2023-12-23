@@ -67,5 +67,7 @@ func _on_mouse_shape_entered(shape_idx):
 
 func _on_mouse_exited():
 	mouse_enter = false
+	
+
 
 
