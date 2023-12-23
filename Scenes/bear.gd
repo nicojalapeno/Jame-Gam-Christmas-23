@@ -32,6 +32,9 @@ func _input(event):
 	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and selected == true and event.pressed and frame_progress == 2 and bearAreas == true:
 		selected = false
 		position = Vector2(576,320)
+		var scoreNode = get_node("../HUD")
+		scoreNode.update_score()
+		
 
 func _on_bear_areas_overlap():
 	if selected == true:

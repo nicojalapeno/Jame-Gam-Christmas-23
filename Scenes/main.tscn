@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scenes/main.gd" id="1_tidsx"]
 [ext_resource type="Texture2D" uid="uid://cytipy026t177" path="res://art/cropped-santa's workshop(2).png" id="2_wxku5"]
-[ext_resource type="PackedScene" uid="uid://er013705ucsd" path="res://Scenes/hud.tscn" id="3_4r0i2"]
+[ext_resource type="PackedScene" path="res://Scenes/hud.tscn" id="3_4r0i2"]
 [ext_resource type="Script" path="res://Scenes/bear.gd" id="4_x3gci"]
 [ext_resource type="Texture2D" uid="uid://53qjng6iw8g" path="res://art/body-parts-bear-vector_71599-139-removebg-preview.png" id="5_lpeg3"]
 [ext_resource type="Texture2D" uid="uid://b27yhy4mom0oc" path="res://art/body_part_bear_halfway.png" id="6_5fkcp"]
@@ -79,7 +79,7 @@ script = ExtResource("7_in268")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="BearAreas"]
 position = Vector2(620.147, 399.613)
 scale = Vector2(1.00526, 0.995084)
-polygon = PackedVector2Array(-108, -36, 98, -52, 98, 21, -70, 37, -116, -8)
+polygon = PackedVector2Array(-115.539, -121.209, 100.325, -122.214, 94.3567, 50.6359, -73.759, 55.6606, -139.414, 1.39386)
 
 [connection signal="mouse_entered" from="Bear" to="Bear" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Bear" to="Bear" method="_on_mouse_exited"]

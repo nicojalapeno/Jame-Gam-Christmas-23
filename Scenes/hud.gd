@@ -2,6 +2,8 @@ extends CanvasLayer
 
 signal start_game
 
+var score = 0
+
 func show_message(text):
 	$Title.text = text
 	$Title.show()
@@ -18,7 +20,8 @@ func show_game_over():
 
 
 	
-func update_score(score):
+func update_score():
+	score = score + 1
 	$Score.text = str(score)
 
 # Called when the node enters the scene tree for the first time.
