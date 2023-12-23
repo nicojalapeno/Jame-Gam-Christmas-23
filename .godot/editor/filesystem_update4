@@ -2,3 +2,5 @@ res://Scenes/player.tscn
 res://Scenes/main.tscn
 res://Scenes/player.gd
 res://Scenes/main.gd
+res://Scenes/hud.tscn
+res://Scenes/hud.gd

@@ -12,12 +12,12 @@ func show_game_over():
 	# Wait until the MessageTimer has counted down.
 	await $MessageTimer.timeout
 
-	$Title.text = "Welcome to Toytron 3000"
-	$Title.show()
 	# Make a one-shot timer and wait for it to finish.
 	await get_tree().create_timer(1.0).timeout
 	$StartButton.show()
 
+
+	
 func update_score(score):
 	$Score.text = str(score)
 
@@ -38,7 +38,7 @@ func _on_message_timer_timeout():
 
 
 func _on_start_button_pressed():
-	$Title.hide()
+	
 	$StartButton.hide()
 	$Score.show()
 	$Start_background.hide()

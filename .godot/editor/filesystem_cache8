@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703270842
+::res://::1703341759
 icon.svg::CompressedTexture2D::2997639268605225756::1702911019::1702911026::1::::<><>::
 ::res://addons/::1703261028
 ::res://addons/godot-git-plugin/::1703261028
@@ -9,11 +9,14 @@ THIRDPARTY.md::TextFile::-1::1703261028::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1703261028
 ::res://addons/godot-git-plugin/macos/::1703261028
 ::res://addons/godot-git-plugin/win64/::1703263043
-::res://art/::1703270842
+::res://art/::1703347673
 82111637.jpg::CompressedTexture2D::6998680258447489930::1703269543::1703269543::1::::<><>::
-cropped-santa's workshop(2).png::CompressedTexture2D::6497110615326294896::1703270838::1703270842::1::::<><>::
-hammer.png::CompressedTexture2D::8653352437783010902::1703265448::1703265448::1::::<><>::
-::res://fonts/::1703269544
+Christmas Chalk.ttf::FontFile::6436417276867371402::1703347673::1703347657::1::::<><>::
+hammer.png::CompressedTexture2D::5696295205094864102::1703341739::1703341744::1::::<><>::
+istockphoto-1327291184-2048x2048.png::CompressedTexture2D::3208710004047563813::1703347180::1703347180::1::::<><>::
+santaworkshop.jpg::CompressedTexture2D::1133496826713739641::1703346917::1703346917::1::::<><>::
+::res://fonts/::1703347692
+Christmas Chalk.ttf::FontFile::3770078191283722044::1703347692::1703347692::1::::<><>::
 overview.PNG::CompressedTexture2D::1601926544296553995::1703269543::1703269543::1::::<><>::
 ::res://fonts/architect-s-daughter/::1703269543
 Architects Daughter SIL OFL Font License.txt::TextFile::-1::1703269543::0::1::::<><>::
@@ -104,10 +107,10 @@ LICENSE.txt::TextFile::-1::1703269544::0::1::::<><>::
 ::res://fonts/xolonium/xolonium-fonts-4.1/ttf/::1703269544
 Xolonium-Bold.ttf::FontFile::7298242088535812606::1703269544::1703269544::1::::<><>::
 Xolonium-Regular.ttf::FontFile::1711081170863175807::1703269544::1703269544::1::::<><>::
-::res://Scenes/::1703269954
-hud.gd::GDScript::-1::1703269543::0::1::::<>CanvasLayer<>::
-hud.tscn::PackedScene::-1::1703269543::0::1::::<><>::
+::res://Scenes/::1703347441
+hud.gd::GDScript::-1::1703347000::0::1::::<>CanvasLayer<>::
+hud.tscn::PackedScene::6327688091889774137::1703347441::0::1::::<><>::res://Scenes/hud.gd<>uid://qfcr6mk22ce8::::res://art/santaworkshop.jpg<>uid://blyk8qvgs0bjh::::res://art/istockphoto-1327291184-2048x2048.png
 main.gd::GDScript::-1::1703269090::0::1::::<>Node<>::
-main.tscn::PackedScene::6463362480488628247::1703269954::0::1::::<><>::res://Scenes/main.gd<>uid://lr5uqvmk2bgl::::res://art/cropped-santa's workshop.png<>res://Scenes/hud.tscn
+main.tscn::PackedScene::6463362480488628247::1703341765::0::1::::<><>::res://Scenes/main.gd<>uid://cytipy026t177::::res://art/cropped-santa's workshop(2).png<>res://Scenes/hud.tscn
 player.gd::GDScript::-1::1703268524::0::1::::<>Area2D<>::
 player.tscn::PackedScene::1088145157748313408::1703265707::0::1::::<><>::uid://dvj0pkvytnh0q::::res://art/hammer.png

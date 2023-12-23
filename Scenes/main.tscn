@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scenes/main.gd" id="1_tidsx"]
 [ext_resource type="Texture2D" uid="uid://cytipy026t177" path="res://art/cropped-santa's workshop(2).png" id="2_wxku5"]
-[ext_resource type="PackedScene" path="res://Scenes/hud.tscn" id="3_4r0i2"]
+[ext_resource type="PackedScene" uid="uid://cwfgdly8t8306" path="res://Scenes/hud.tscn" id="3_4r0i2"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_tidsx")

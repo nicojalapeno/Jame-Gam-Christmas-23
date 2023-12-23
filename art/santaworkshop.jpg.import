@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnflfdfkefpra"
-path="res://.godot/imported/hammer.png-0ac6c123f3f48aa23020082b0caaf6b2.ctex"
+uid="uid://qfcr6mk22ce8"
+path="res://.godot/imported/santaworkshop.jpg-59a569b28273d9bbd89e51f0c03b1532.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/hammer.png"
-dest_files=["res://.godot/imported/hammer.png-0ac6c123f3f48aa23020082b0caaf6b2.ctex"]
+source_file="res://art/santaworkshop.jpg"
+dest_files=["res://.godot/imported/santaworkshop.jpg-59a569b28273d9bbd89e51f0c03b1532.ctex"]
 
 [params]
 
