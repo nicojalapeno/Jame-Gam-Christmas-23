@@ -39,6 +39,7 @@ func _on_message_timer_timeout():
 
 func _on_start_button_pressed():
 	
+	$TextureRect.hide()
 	$StartButton.hide()
 	$Score.show()
 	$Start_background.hide()
