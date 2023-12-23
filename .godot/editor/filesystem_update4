@@ -1,4 +1,6 @@
 res://Scenes/player.tscn
+res://Scenes/hud.tscn
 res://Scenes/main.tscn
-res://Scenes/player.gd
-res://Scenes/main.gd
+res://Scenes/bear.gd
+res://Scenes/Node2D.gd
+res://Scenes/BearAreas.gd
